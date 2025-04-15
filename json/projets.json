@@ -1,0 +1,478 @@
+{
+    "games": [
+
+        {
+            "project_name": "Kitten Invaders",
+            "cover": "/images/kitten_invaders.png",
+            "date": "2025-02-01",
+            "tags": [
+                "développement fullstack",
+                "node.js",
+                "socket.io",
+                "cheffe de projet"
+            ],
+            "description": "Développement complet (front-end & back-end) d’un jeu d’arcade de type bullet hell en JavaScript, avec rendu Canvas et logique multijoueur en temps réel via Node.js et Socket.io. Chaque partie accueille 1 ou 2 joueurs, avec génération de rooms sécurisées par code. Le serveur gère la game loop à un rythme de 60 images par seconde, les déplacements, la détection de collisions, et les interactions temps réel. Le gameplay s’inspire des roguelikes : vagues de boss de difficulté croissante, choix d’améliorations à chaque victoire. Interface responsive optimisée pour ordinateur, avec UI personnalisée. Projet réalisé en équipe dans un cadre universitaire, soumis au Festival MMI. J’ai pris en charge l’intégralité du développement technique.",
+            "links": [
+                {
+                    "link_name": "Code Source",
+                    "link_url": "https://github.com/Sekaivi/Kitten-Invaders"
+                }
+            ],
+            "tools": [
+                {
+                    "tool_name": "node",
+                    "tool_path": "/images/node.png"
+                },
+                {
+                    "tool_name": "html",
+                    "tool_path": "/images/html.png"
+                },
+                {
+                    "tool_name": "css",
+                    "tool_path": "/images/css.png"
+                },
+                {
+                    "tool_name": "js",
+                    "tool_path": "/images/js.png"
+                }
+            ],
+            "video": "/videos/kitten_invaders.mp4"
+        },
+
+        {
+            "project_name": "Dungeon Escape",
+            "cover": "/images/dungeon_escape.png",
+            "date": "2025-04-01",
+            "tags": [
+                "unity",
+                "C#",
+                "jeu vidéo"
+            ],
+            "description": "Un labyrinthe, des pièges, des monstres… et une héroïne prête à en découdre ! Ce jeu d’exploration 2D, entièrement réalisé sur Unity, plonge le joueur dans un univers rempli de dangers où il faut retrouver la sortie tout en combattant. J’y ai développé un système de combat simple mais efficace (knockback, stun, barre de vie), géré les collisions et animations, intégré des effets sonores, ainsi qu’une petite interface utilisateur. C'était mon tout premier projet Unity : une expérience qui a posé les bases pour de futurs projets toujours plus complexes.",
+            "links": [
+                {
+                    "link_name": "Jouer",
+                    "link_url": "itch.io"
+                }
+            ],
+            "tools": [
+                {
+                    "tool_name": "Unity",
+                    "tool_path": "/images/unity.png"
+                },
+                {
+                    "tool_name": "C#",
+                    "tool_path": "/images/c#.png"
+                }
+            ],
+            "video": "/videos/dungeon_escape.mp4"
+        },
+
+        {
+            "project_name": "TWEWYdle",
+            "cover": "/images/twewydle.png",
+            "date": "2024-12-01",
+            "tags": [
+                "Base de données",
+                "Jeu web",
+                "développement fullstack"
+            ],
+            "description": "Chaque jour, une musique issue de l’univers du jeu vidéo The World Ends With You est à deviner à partir d’extraits de plus en plus longs. Mais ce n’est pas tout : un mode multijoueur VS permet d’affronter ses amis dans une course effrénée pour deviner les 5 musiques d’une playlist générée aléatoirement. Le premier à tout trouver a gagné ! J’ai conçu et réalisé l’intégralité du jeu : Interface et design fidèle à l’univers, développement en PHP avec AJAX, déploiement d’une base de données pour gérer les rooms, joueurs, scores et playlists, catalogue dynamique de musiques et logique de progression inspirée des wordle/guessing games.",
+            "links": [
+                {
+                    "link_name": "Maquettes",
+                    "link_url": "https://www.figma.com/design/qj90TOlRlXb08d0sdoXYu7/TWEWYdle?node-id=0-1&t=pHHqSY7y8dCQJHeq-1"
+                },
+                {
+                    "link_name": "Code Source",
+                    "link_url": "https://github.com/Sekaivi/TWEWYdle"
+                }
+            ],
+            "tools": [
+                {
+                    "tool_name": "PHP",
+                    "tool_path": "/images/php.png"
+                },
+                {
+                    "tool_name": "MySQL",
+                    "tool_path": "/images/mysql.png"
+                },
+                {
+                    "tool_name": "js",
+                    "tool_path": "/images/js.png"
+                },
+                {
+                    "tool_name": "CSS",
+                    "tool_path": "/images/css.png"
+                }
+            ],
+            "video": "/videos/twewydle.mp4"
+        }
+
+    ] ,
+
+    "web" : [
+
+        {
+            "project_name": "MediaHive",
+            "cover": "/images/mediahive.png",
+            "date": "2025-04-01",
+            "tags": [
+                "cheffe de projet",
+                "développement fullstack",
+                "base de données"
+            ],
+            "description": "Projet développé dans le cadre du Séminaire Appel d’Offres International – 2e place. Plateforme web multilingue permettant aux utilisateurs de suivre des articles via flux RSS, avec un système de recommandations personnalisées basé sur leurs préférences. Gestion complète des utilisateurs (authentification, préférences, favoris), traitement des métadonnées, et revue de presse centralisée. Conception et déploiement de la base de données, développement front-end et back-end, interface personnalisable et responsive. J’ai assuré la rédaction du cahier des charges, la création des maquettes et l’intégralité du développement technique.",
+            "links": [
+                {
+                    "link_name": "Code Source",
+                    "link_url": "https://github.com/Sekaivi/MediaHive"
+                },
+                {
+                    "link_name": "Maquettes",
+                    "link_url": "https://www.figma.com/design/bFL8zwkQqxpJMcYd7WlAhP/Wireframes-and-mockups--Copy-?node-id=0-1&t=7ciowQzLYxrew0JN-1"
+                },
+                {
+                    "link_name": "Cahier des Charges (Anglais)",
+                    "link_url": "#"
+                }
+            ],
+            "tools": [
+                {
+                    "tool_name": "php",
+                    "tool_path": "/images/php.png"
+                },
+                {
+                    "tool_name": "MySQL",
+                    "tool_path": "/images/mysql.png"
+                },
+                {
+                    "tool_name": "js",
+                    "tool_path": "/images/js.png"
+                },
+                {
+                    "tool_name": "CSS",
+                    "tool_path": "/images/css.png"
+                }
+            ],
+            "video": "/videos/mediahive.mp4"
+        },
+
+        {
+            "project_name": "PixelPress",
+            "cover": "/images/pixel_press.png",
+            "date": "2025-02-01",
+            "tags": [
+                "laravel",
+                "CRUD",
+                "déploiement serveur"
+            ],
+            "description": "Dans le cadre d’un projet universitaire, j’ai développé PixelPress, un blog personnel entièrement réalisé avec le framework Laravel, depuis l’installation d’un environnement serveur jusqu’à la conception fonctionnelle du site. J’ai d’abord configuré et installé un serveur LAMP sur une machine virtuelle (Linux, Apache, MySQL/MariaDB, PHP) afin d’héberger l’application en local. Ce projet m’a permis d’approfondir ma maîtrise du back-end PHP en m’initiant au framework Laravel, tout en assurant également le front-end avec le moteur de templates Blade. Le site propose un système complet de gestion des utilisateurs avec inscription, connexion, et différenciation des droits (admin, éditeur, simple visiteur), une interface d’administration permettant la gestion des articles (création, modification, suppression) ainsi que la modification des statuts utilisateurs. L’ensemble repose sur une base de données relationnelle conçue à partir d’un MCD structuré. J’ai aussi créé l’interface graphique et les maquettes, avec une approche responsive mobile-first. Ce projet a été entièrement réalisé seule, et a été l’occasion de démontrer ma capacité à mener un développement web complet, de l’infrastructure serveur au produit final.",
+            "links": [],
+            "tools": [
+                {
+                    "tool_name": "laravel",
+                    "tool_path": "/images/laravel.png"
+                },
+                {
+                    "tool_name": "php",
+                    "tool_path": "/images/php.png"
+                },
+                {
+                    "tool_name": "MySQL",
+                    "tool_path": "/images/mysql.png"
+                },
+                {
+                    "tool_name": "CSS",
+                    "tool_path": "/images/css.png"
+                }
+            ],
+            "video": "/videos/pixel_press.mp4"
+        },
+
+        {
+            "project_name": "Mini-projet Ghibli",
+            "cover": "/images/ghibli.png",
+            "date": "2025-03-01",
+            "tags": [
+                "dev front",
+                "API"
+            ],
+            "description": "Dans le cadre d’un examen de développement front-end, j’ai réalisé en 2h un site interactif dédié aux films du studio Ghibli, à partir de l’API publique <a href='https://ghibliapi.vercel.app/films/' target='_blank' rel='noopener noreferrer'>GhibliAPI</a>. L’objectif : générer dynamiquement une carte pour <strong>chaque film</strong> avec <strong>affichage d’infos au survol</strong>, et <strong>ouverture d’une fiche détaillée en modal</strong> au clic, le tout <strong>sans aucun rechargement de page</strong>. Ce projet 100% JavaScript a été conçu en temps limité, avec une attention portée à l’ergonomie, la réactivité des interactions et la clarté du code. L’architecture est entièrement modulaire et repose sur la manipulation fine du DOM et des événements utilisateurs.",
+            "links": [
+                {
+                    "link_name": "Site Web",
+                    "link_url": "#"
+                },
+                {
+                    "link_name": "Code Source",
+                    "link_url": "https://github.com/Sekaivi/MiniGhibli"
+                }
+            ],
+            "tools": [
+                {
+                    "tool_name": "html",
+                    "tool_path": "/images/html.png"
+                },
+                {
+                    "tool_name": "js",
+                    "tool_path": "/images/js.png"
+                },
+                {
+                    "tool_name": "CSS",
+                    "tool_path": "/images/css.png"
+                }
+            ],
+            "video": "/videos/ghibli.mp4"
+        },
+
+        {
+            "project_name": "KHWikia",
+            "cover": "/images/khwikia.png",
+            "date": "2024-05-01",
+            "tags": [
+                "développement fullstack",
+                "base de données",
+                "Wiki"
+            ],
+            "description": "Ce site web a été conçu en solo dans le cadre d’un projet universitaire, avec un délai de trois semaines. Réalisé entièrement en PHP (sans framework), il propose une plateforme dynamique autour de l’univers de Kingdom Hearts, une licence qui me tient particulièrement à cœur. Les utilisateurs peuvent s'inscrire, se connecter via un système de session sécurisé, rechercher du contenu via une barre de recherche et poster des commentaires sur les différentes pages. Tous les contenus sont générés dynamiquement à partir d’une base de données SQL que j’ai entièrement modélisée et mise en place. Le design et l’interface, pensés pour être 100% responsives, ont également été réalisés par mes soins, sans recourir à aucune bibliothèque externe. Ce projet représente l’un de mes premiers véritables défis web fullstack, et m’a permis de consolider mes bases en développement pur tout en alliant rigueur et passion.",
+            "links": [
+                {
+                    "link_name": "Site Web",
+                    "link_url": "http://projets.iut-bobigny.univ-paris13.fr/~rouibah/kh_butitsbetternow/"
+                },
+                {
+                    "link_name": "Code Source",
+                    "link_url": "https://github.com/Sekaivi/KHWikia"
+                },
+                {
+                    "link_name": "Maquettes",
+                    "link_url": "https://www.figma.com/design/QEEh9OQYJed2bhIUXICqoB/KH-wiki?node-id=1-16&t=zi6g6Ri2o1xBAWdA-1"
+                }
+            ],
+            "tools": [
+                {
+                    "tool_name": "php",
+                    "tool_path": "/images/php.png"
+                },
+                {
+                    "tool_name": "html",
+                    "tool_path": "/images/html.png"
+                },
+                {
+                    "tool_name": "js",
+                    "tool_path": "/images/js.png"
+                },
+                {
+                    "tool_name": "CSS",
+                    "tool_path": "/images/css.png"
+                }
+            ],
+            "video": "/videos/khwikia.mp4"
+        },
+
+        {
+            "project_name": "Open Data viz",
+            "cover": "/images/dataviz.png",
+            "date": "2024-05-01",
+            "tags": [
+                "D3.js",
+                "Data visualisation",
+                "Open Data"
+            ],
+            "description": "Dans le cadre d’un projet individuel, j’ai conçu une interface web interactive permettant de visualiser des données issues d’open data sur les représentations sociales du réchauffement climatique. L’objectif était de proposer une alternative claire et intuitive à des tableaux de données complexes, en mettant l’accent sur l’accessibilité et l’interprétation visuelle. Réalisé en HTML, CSS, JavaScript et  la bibliothèque D3.js, le projet permet aux utilisateurs de survoler et de cliquer sur une carte interactive de la France pour explorer les opinions des participants en fonction de leur département de résidence. Des graphiques dynamiques apparaissent ensuite, affichant des données croisées selon le genre, les moyens de transport utilisés et les opinions vis-à-vis du réchauffement climatique. Chaque élément visuel est interactif, et une navigation fluide permet de naviguer entre les niveaux d’information. Bien que le design soit encore perfectible, le site est fonctionnel, responsive, et accessible en ligne. Ce projet m’a permis d’approfondir ma maîtrise de la visualisation de données avec D3.js tout en consolidant mes compétences en manipulation de données, structuration d’interfaces interactives et logique utilisateur.",
+            "links": [
+                {
+                    "link_name": "Site Web",
+                    "link_url": "http://projets.iut-bobigny.univ-paris13.fr/~rouibah/SAE303/"
+                },
+                {
+                    "link_name": "Code Source",
+                    "link_url": "#"
+                }
+            ],
+            "tools": [
+                {
+                    "tool_name": "D3.js",
+                    "tool_path": "/images/d3.png"
+                },
+                {
+                    "tool_name": "js",
+                    "tool_path": "/images/js.png"
+                },
+                {
+                    "tool_name": "html",
+                    "tool_path": "/images/html.png"
+                },
+                
+                {
+                    "tool_name": "CSS",
+                    "tool_path": "/images/css.png"
+                }
+            ],
+            "video": "/videos/dataviz.mp4"
+        }
+    ] ,
+
+    "UXUI" : [
+        {
+            "project_name": "Fixsou",
+            "cover": "/images/fixsou.png",
+            "date": "2024-02-01",
+            "tags": [
+                "cheffe de projet",
+                "gestion de projet",
+                "concevoir un dispositif"
+            ],
+            "description": "Dans le cadre d’un projet s'étalant tout le long d'un semestre, j’ai travaillé en tant que cheffe de projet sur Fixsou, une application fictive dont l’objectif est de lutter contre la fracture numérique tout en réduisant l’empreinte environnementale du secteur. Le concept repose sur la réparation, le don et le tri des appareils électroniques inutilisés afin de prolonger leur durée de vie. J’ai assuré la gestion globale du projet : élaboration du cahier des charges, réalisation d’un rétroplanning, budgétisation, coordination de l’équipe (5 personnes) et répartition des tâches. J’ai également participé activement à la conception des maquettes haute fidélité et interactives de l’application, en les finalisant et les rendant pleinement navigables. Côté communication, j’ai imaginé et monté une vidéo publicitaire destinée à une diffusion type YouTube, en m’occupant du tournage, du montage, et du storytelling. Enfin, j’ai conçu et intégré le site vitrine du projet sur Webflow, à partir de maquettes fournies par ma coéquipière. Ce projet m’a permis de mobiliser à la fois mes compétences en gestion, en design UX/UI et en communication visuelle.",
+            "links": [
+                {
+                    "link_name": "Site Vitrine",
+                    "link_url": "https://fixsou.webflow.io"
+                },
+                {
+                    "link_name": "Maquettes",
+                    "link_url": "https://www.figma.com/design/p7Dc6iqyryEM16H781RZqX/FIXSOU?node-id=0-1"
+                },
+                {
+                    "link_name": "Publicité",
+                    "link_url": "https://www.youtube.com/watch?v=DEf_GiK-4Tc"
+                },
+                {
+                    "link_name": "Cahier des Charges",
+                    "link_url": "#"
+                }
+            ],
+            "tools": [
+                {
+                    "tool_name": "Figma",
+                    "tool_path": "/images/figma.png"
+                },
+                {
+                    "tool_name": "webflow",
+                    "tool_path": "/images/webflow.png"
+                },
+                {
+                    "tool_name": "premiere pro",
+                    "tool_path": "/images/premiere.png"
+                }
+            ],
+            "video": "/videos/fixsou.mp4"
+        },
+
+        {
+            "project_name": "Cognisphère",
+            "cover": "/images/cognisphere.png",
+            "date": "2024-09-01",
+            "tags": [
+                "cheffe de projet",
+                "gestion de projet",
+                "concevoir un dispositif"
+            ],
+            "description": "Dans le cadre d’un projet semestriel, j’ai travaillé en tant que cheffe de projet sur un site web conçue pour soutenir une ONG fictive engagée dans la défense des handicaps cognitifs: Cognisphère. L’objectif était de sensibiliser, d’informer et de faciliter l’accès à des ressources pour les personnes concernées et leur entourage. J’ai assuré la gestion globale du projet : rédaction du cahier des charges, élaboration du rétroplanning, définition des objectifs, répartition des tâches et suivi d’une équipe de 5 personnes. Ce projet m’a permis de renforcer mes compétences en gestion de projet, accessibilité numérique et UX design, tout en mettant mes capacités d’organisation au service d’une cause porteuse de sens.",
+            "links": [
+                {
+                    "link_name": "Maquettes",
+                    "link_url": "https://www.figma.com/design/PqZpH6p8m0eKn5tZY9jZ7u/Wireframes---site-handicap-cognitif?node-id=0-1&t=zvc0W9OdWC3N9bHj-1"
+                },
+                {
+                    "link_name": "Cahier des Charges",
+                    "link_url": "#"
+                }
+            ],
+            "tools": [
+                {
+                    "tool_name": "Figma",
+                    "tool_path": "/images/figma.png"
+                }
+            ],
+            "video": "/videos/cognisphere.mp4"
+        },
+
+        {
+            "project_name": "Alumni USPN",
+            "cover": "/images/alumni_uspn.png",
+            "date": "2024-10-01",
+            "tags": [
+                "cheffe de projet",
+                "gestion de projet",
+                "conception site web"
+            ],
+            "description": "Dans le cadre d’un projet universitaire, j’ai assuré le rôle de cheffe de projet pour la conception d’un site alumni destiné à l’Université Sorbonne Paris Nord. L’objectif était de renforcer les liens entre anciens étudiants, entreprises partenaires et personnels de l’université à travers une plateforme complète, inspirée de LinkedIn. J’ai élaboré le cahier des charges, réalisé un rétroplanning et assuré la coordination de l’équipe (composée de trois membres) tout en contribuant activement à la création des maquettes. Ces dernières permettaient de poser les fondations d’un réseau social complet : création de profils personnalisés selon le type d’utilisateur (étudiant, alumni, entreprise), messagerie interne, annuaire interactif avec géolocalisation et cartographie sectorielle, groupes d’affinités, publication d’offres d’emploi et de stages, alertes personnalisées, événements, articles, CRM pour la gestion des relations entreprises, ainsi qu’un design responsive et multilingue. Pour concevoir une plateforme en phase avec les besoins réels des utilisateurs, j’ai également élaboré et analysé un questionnaire diffusé auprès d’un panel d’étudiants et d’alumni. Ce projet m’a permis de mettre en œuvre mes compétences en gestion de projet, UX design et coordination d’équipe dans un contexte d’organisation particulièrement contraint.",
+            "links": [
+                {
+                    "link_name": "Maquettes",
+                    "link_url": "https://www.figma.com/design/PqZpH6p8m0eKn5tZY9jZ7u/Wireframes---site-handicap-cognitif?node-id=0-1&t=zvc0W9OdWC3N9bHj-1"
+                },
+                {
+                    "link_name": "Cahier des Charges",
+                    "link_url": "#"
+                }
+            ],
+            "tools": [
+                {
+                    "tool_name": "Figma",
+                    "tool_path": "/images/figma.png"
+                }
+            ],
+            "video": "/videos/alumni_uspn.mp4"
+        }
+    ],
+
+    "audiovisuelle" : [
+        {
+            "project_name": "Flame Stalker",
+            "cover": "/images/flame_stalker.png",
+            "date": "2023-12-01",
+            "tags": [
+                "cheffe de projet",
+                "storyboard",
+                "screenplay"
+            ],
+            "description": "Ce projet marque un tournant créatif dans mon parcours, bien différent des productions web que j’ai l’habitude de mener : un court-métrage de 2 minutes 20, imaginé et tourné dans le cadre de mes études en MMI à l’occasion du Nikon Film Festival. Réalisé en 12h chrono avec une équipe de 5 personnes, Flame Stalker est un film muet à l’atmosphère pesante, racontant l’histoire de Nora, une jeune femme dont la soirée bascule après une rencontre en apparence banale. Filmée, traquée, puis brûlée – sa tranquillité ne tenait qu’à un fil. En tant que cheffe de projet, j’ai assuré la coordination globale de l’équipe, rédigé le dossier de scénario, organisé le tournage et veillé au bon déroulement de toutes les étapes. J’ai également participé au tournage en tant qu’actrice principale, et réalisé le montage final sur Adobe Premiere Pro. Ce court-métrage, entièrement autoproduit, nous a valu la meilleure note du semestre et reste pour moi une expérience marquante, mêlant narration visuelle, travail d’équipe intense et gestion de projet créatif sous contrainte de temps.",
+            "links": [
+                {
+                    "link_name": "Film",
+                    "link_url": "https://www.youtube.com/watch?v=eXcLDhcNBxI"
+                },
+                {
+                    "link_name": "Dossier Scénario",
+                    "link_url": "#"
+                }
+            ],
+            "tools": [
+                {
+                    "tool_name": "Premiere Pro",
+                    "tool_path": "/images/premiere.png"
+                }
+            ],
+            "video": "/videos/flame_stalker.mp4"
+        },
+
+        {
+            "project_name": "Présentation Personnelle",
+            "cover": "/images/presentation.png",
+            "date": "2025-01-01",
+            "tags": [
+                "présentation vidéo" ,
+                "projet fantaisiste"
+            ],
+            "description": "Dans le cadre de mes études, j’ai réalisé une courte vidéo de présentation personnelle d’une durée de 36 secondes, en utilisant exclusivement le module Fusion de DaVinci Resolve 19. Ce projet m’a permis de mettre en œuvre différentes compétences en motion design à partir d’un cahier des charges précis : j’y ai intégré deux animations de formes et d’images (déplacements, échelles, rotations), une animation de texte avec un masque animé personnalisé, une incrustation sur fond vert à l’aide du nœud Delta Keyer, ainsi qu’un tracking appliqué à un élément graphique en mouvement. L’ensemble est accompagné d’une musique libre de droit, choisie pour renforcer l’impact de l’animation. Ce travail, à la fois technique et créatif, m’a permis de m’approprier pleinement les outils de compositing de Fusion tout en développant une présentation originale de moi-même. J’ai obtenu la deuxième meilleure note de la classe et pris beaucoup de plaisir à concevoir ce projet.",
+            "links": [
+                {
+                    "link_name": "Visionner",
+                    "link_url": "#"
+                }
+            ],
+            "tools": [
+                {
+                    "tool_name": "Da Vinci Resolve",
+                    "tool_path": "/images/davinci.png.png"
+                }
+            ],
+            "video": "/videos/presentation.mp4"
+        }
+
+    ]
+
+}
