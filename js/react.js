@@ -57,6 +57,7 @@ function handleHover() {
 }
 
 function hideWindow(window) {
+    winContent.innerHTML = '' ;
     window.classList.remove('show');
     void window.offsetWidth;
     window.classList.add('hide');
