@@ -373,7 +373,7 @@
                 },
                 {
                     "link_name": "Cahier des Charges",
-                    "link_url": "cognisphere.pdf"
+                    "link_url": "/docs/cognisphere.pdf"
                 }
             ],
             "tools": [
@@ -433,7 +433,7 @@
                 },
                 {
                     "link_name": "Dossier Scenario",
-                    "link_url": "flame_stalker"
+                    "link_url": "/docs/flame_stalker.pdf"
                 }
             ],
             "tools": [
