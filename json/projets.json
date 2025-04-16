@@ -20,11 +20,11 @@
             ],
             "tools": [
                 {
-                    "tool_name": "node",
+                    "tool_name": "Node.js",
                     "tool_path": "/images/node.png"
                 },
                 {
-                    "tool_name": "html",
+                    "tool_name": "HTML",
                     "tool_path": "/images/html.png"
                 },
                 {
@@ -36,7 +36,7 @@
                     "tool_path": "/images/js.png"
                 }
             ],
-            "video": "/videos/kitten_invaders.mp4"
+            "video": "https://www.youtube.com/watch?v=OeTAcnjgF-0"
         },
 
         {
@@ -62,10 +62,10 @@
                 },
                 {
                     "tool_name": "C#",
-                    "tool_path": "/images/c#.png"
+                    "tool_path": "/images/Csharp.png"
                 }
             ],
-            "video": "/videos/dungeon_escape.mp4"
+            "video": "https://youtu.be/Tjtvh5hFd7o"
         },
 
         {
@@ -106,7 +106,7 @@
                     "tool_path": "/images/css.png"
                 }
             ],
-            "video": "/videos/twewydle.mp4"
+            "video": "https://youtu.be/jZT3Rn9oEtU"
         }
 
     ] ,
@@ -133,8 +133,8 @@
                     "link_url": "https://www.figma.com/design/bFL8zwkQqxpJMcYd7WlAhP/Wireframes-and-mockups--Copy-?node-id=0-1&t=7ciowQzLYxrew0JN-1"
                 },
                 {
-                    "link_name": "Cahier des Charges (Anglais)",
-                    "link_url": "#"
+                    "link_name": "Cahier des Charges",
+                    "link_url": "/docs/specifications.pdf"
                 }
             ],
             "tools": [
@@ -155,7 +155,7 @@
                     "tool_path": "/images/css.png"
                 }
             ],
-            "video": "/videos/mediahive.mp4"
+            "video": "https://youtu.be/oiNoWx0NPxI"
         },
 
         {
@@ -187,22 +187,22 @@
                     "tool_path": "/images/css.png"
                 }
             ],
-            "video": "/videos/pixel_press.mp4"
+            "video": "https://youtu.be/Tjtvh5hFd7o"
         },
 
         {
-            "project_name": "Mini-projet Ghibli",
+            "project_name": "Mini-Ghibli",
             "cover": "/images/ghibli.png",
             "date": "2025-03-01",
             "tags": [
                 "dev front",
                 "API"
             ],
-            "description": "Dans le cadre d’un examen de développement front-end, j’ai réalisé en 2h un site interactif dédié aux films du studio Ghibli, à partir de l’API publique <a href='https://ghibliapi.vercel.app/films/' target='_blank' rel='noopener noreferrer'>GhibliAPI</a>. L’objectif : générer dynamiquement une carte pour <strong>chaque film</strong> avec <strong>affichage d’infos au survol</strong>, et <strong>ouverture d’une fiche détaillée en modal</strong> au clic, le tout <strong>sans aucun rechargement de page</strong>. Ce projet 100% JavaScript a été conçu en temps limité, avec une attention portée à l’ergonomie, la réactivité des interactions et la clarté du code. L’architecture est entièrement modulaire et repose sur la manipulation fine du DOM et des événements utilisateurs.",
+            "description": "Dans le cadre d’un examen de développement front-end, j’ai réalisé en 2h un site interactif dédié aux films du studio Ghibli, à partir de l’API publique GhibliAPI. L’objectif : générer dynamiquement une carte pour chaque film avec affichage d’infos au survol</strong>, et ouverture d’une fiche détaillée en modal au clic, le tout sans aucun rechargement de page. Ce projet 100% JavaScript a été conçu en temps limité, avec une attention portée à l’ergonomie, la réactivité des interactions et la clarté du code. L’architecture est entièrement modulaire et repose sur la manipulation fine du DOM et des événements utilisateurs.",
             "links": [
                 {
                     "link_name": "Site Web",
-                    "link_url": "#"
+                    "link_url": "https://mini-ghibli.vercel.app"
                 },
                 {
                     "link_name": "Code Source",
@@ -223,7 +223,7 @@
                     "tool_path": "/images/css.png"
                 }
             ],
-            "video": "/videos/ghibli.mp4"
+            "video": "https://youtu.be/Tjtvh5hFd7o"
         },
 
         {
@@ -268,7 +268,7 @@
                     "tool_path": "/images/css.png"
                 }
             ],
-            "video": "/videos/khwikia.mp4"
+            "video": "https://youtu.be/fHPg1JcX78Q"
         },
 
         {
@@ -288,7 +288,7 @@
                 },
                 {
                     "link_name": "Code Source",
-                    "link_url": "#"
+                    "link_url": "https://github.com/Sekaivi/dataviz"
                 }
             ],
             "tools": [
@@ -310,11 +310,11 @@
                     "tool_path": "/images/css.png"
                 }
             ],
-            "video": "/videos/dataviz.mp4"
+            "video": "https://youtu.be/Tjtvh5hFd7o"
         }
     ] ,
 
-    "UXUI" : [
+    "uxui" : [
         {
             "project_name": "Fixsou",
             "cover": "/images/fixsou.png",
@@ -335,12 +335,8 @@
                     "link_url": "https://www.figma.com/design/p7Dc6iqyryEM16H781RZqX/FIXSOU?node-id=0-1"
                 },
                 {
-                    "link_name": "Publicité",
-                    "link_url": "https://www.youtube.com/watch?v=DEf_GiK-4Tc"
-                },
-                {
                     "link_name": "Cahier des Charges",
-                    "link_url": "#"
+                    "link_url": "/docs/fixsou.pdf"
                 }
             ],
             "tools": [
@@ -357,11 +353,11 @@
                     "tool_path": "/images/premiere.png"
                 }
             ],
-            "video": "/videos/fixsou.mp4"
+            "video": "https://www.youtube.com/watch?v=DEf_GiK-4Tc"
         },
 
         {
-            "project_name": "Cognisphère",
+            "project_name": "Cognisphere",
             "cover": "/images/cognisphere.png",
             "date": "2024-09-01",
             "tags": [
@@ -369,7 +365,7 @@
                 "gestion de projet",
                 "concevoir un dispositif"
             ],
-            "description": "Dans le cadre d’un projet semestriel, j’ai travaillé en tant que cheffe de projet sur un site web conçue pour soutenir une ONG fictive engagée dans la défense des handicaps cognitifs: Cognisphère. L’objectif était de sensibiliser, d’informer et de faciliter l’accès à des ressources pour les personnes concernées et leur entourage. J’ai assuré la gestion globale du projet : rédaction du cahier des charges, élaboration du rétroplanning, définition des objectifs, répartition des tâches et suivi d’une équipe de 5 personnes. Ce projet m’a permis de renforcer mes compétences en gestion de projet, accessibilité numérique et UX design, tout en mettant mes capacités d’organisation au service d’une cause porteuse de sens.",
+            "description": "Dans le cadre d'une de nos unités d'enseignement, j’ai travaillé en tant que cheffe de projet sur un site web conçue pour soutenir une ONG fictive engagée dans la défense des handicaps cognitifs: Cognisphère. L’objectif était de sensibiliser, d’informer et de faciliter l’accès à des ressources pour les personnes concernées et leur entourage. J’ai assuré la gestion globale du projet : rédaction du cahier des charges, élaboration du rétroplanning, définition des objectifs, répartition des tâches et suivi d’une équipe de 5 personnes. Ce projet m’a permis de renforcer mes compétences en gestion de projet, accessibilité numérique et UX design, tout en mettant mes capacités d’organisation au service d’une cause porteuse de sens.",
             "links": [
                 {
                     "link_name": "Maquettes",
@@ -377,7 +373,7 @@
                 },
                 {
                     "link_name": "Cahier des Charges",
-                    "link_url": "#"
+                    "link_url": "cognisphere.pdf"
                 }
             ],
             "tools": [
@@ -386,7 +382,7 @@
                     "tool_path": "/images/figma.png"
                 }
             ],
-            "video": "/videos/cognisphere.mp4"
+            "video": "https://youtu.be/Tjtvh5hFd7o"
         },
 
         {
@@ -406,7 +402,7 @@
                 },
                 {
                     "link_name": "Cahier des Charges",
-                    "link_url": "#"
+                    "link_url": "/docs/alumni_uspn.pdf"
                 }
             ],
             "tools": [
@@ -415,7 +411,7 @@
                     "tool_path": "/images/figma.png"
                 }
             ],
-            "video": "/videos/alumni_uspn.mp4"
+            "video": "https://youtu.be/Tjtvh5hFd7o"
         }
     ],
 
@@ -436,8 +432,8 @@
                     "link_url": "https://www.youtube.com/watch?v=eXcLDhcNBxI"
                 },
                 {
-                    "link_name": "Dossier Scénario",
-                    "link_url": "#"
+                    "link_name": "Dossier Scenario",
+                    "link_url": "flame_stalker"
                 }
             ],
             "tools": [
@@ -446,11 +442,11 @@
                     "tool_path": "/images/premiere.png"
                 }
             ],
-            "video": "/videos/flame_stalker.mp4"
+            "video": "https://www.youtube.com/watch?v=eXcLDhcNBxI"
         },
 
         {
-            "project_name": "Présentation Personnelle",
+            "project_name": "Presentation Personnelle",
             "cover": "/images/presentation.png",
             "date": "2025-01-01",
             "tags": [
@@ -461,16 +457,16 @@
             "links": [
                 {
                     "link_name": "Visionner",
-                    "link_url": "#"
+                    "link_url": "https://youtu.be/jWfOZG77WXU"
                 }
             ],
             "tools": [
                 {
                     "tool_name": "Da Vinci Resolve",
-                    "tool_path": "/images/davinci.png.png"
+                    "tool_path": "/images/davinci.png"
                 }
             ],
-            "video": "/videos/presentation.mp4"
+            "video": "https://youtu.be/jWfOZG77WXU"
         }
 
     ]
