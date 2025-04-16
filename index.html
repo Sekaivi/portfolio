@@ -30,31 +30,36 @@
                     </div>
                     <p class="icons_txt">Mayssa <span class="emoticons">D</span></p>
                 </div>
-                <div title="Les outils que je maitrise!" class="icon">
-                    <div class="icon_img">
-                        <img src="/images/desk/tools.png" alt="Outils" />
+
+                <a title="mon CV :)" target="_blank" href="/docs/cv.pdf">
+                    <div class="icon">
+                        <div class="icon_img">
+                            <img src="/images/desk/tools.png" alt="Outils" />
+                        </div>
+                        <p class="icons_txt">Mon CV</p>
                     </div>
-                    <p class="icons_txt">Tools</p>
-                </div>
-                <div id="game-icon" title="Les Jeux sur lesquels j'ai travaillé!" class="icon">
+                </a>
+
+                <div data-id="games" id="game-icon" title="Les Jeux sur lesquels j'ai travaillé!" class="icon">
                     <div class="icon_img">
                         <img src="/images/desk/games.png" alt="Jeux" />
                     </div>
                     <p class="icons_txt">Jeux</p>
                 </div>
-                <div id="web-icon" title="Mes réalisations web" class="icon">
+                <div data-id="web" id="web-icon" title="Mes réalisations web" class="icon">
                     <div class="icon_img">
                         <img src="/images/desk/web.png" alt="Internet Explorer" />
                     </div>
                     <p class="icons_txt">Web</p>
                 </div>
-                <div id="ux-icon" title="Mes projets axés UX et UI" class="icon">
+                <div data-id="uxui" id="ux-icon" title="Mes projets axés UX et UI" class="icon">
                     <div class="icon_img">
                         <img src="/images/desk/ux.png" alt="Malette" />
                     </div>
                     <p class="icons_txt">UX/UI</p>
                 </div>
-                <div id="audioviz-icon" title="Mes productions audiovisuelles et autres" class="icon">
+                <div data-id="audiovisuelle" id="audioviz-icon" title="Mes productions audiovisuelles et autres"
+                    class="icon">
                     <div class="icon_img">
                         <img src="/images/desk/audiovisuelle.png" alt="Caméra" />
                     </div>
@@ -150,7 +155,48 @@
                     </div>
                     <div class="shine2">
                         <div class="noir">
-                            
+                            <div id="split-screen">
+                                <div id="location">
+                                    <div class="category">
+                                        <div id="games" class="cat-title">
+                                            <img class="minimize-folder show-more" src="/images/folder-plus.svg"
+                                                data-minus="/images/folder-minus.svg"
+                                                data-plus="/images/folder-plus.svg" alt="folder icon" />
+                                            <p>Jeux</p>
+                                        </div>
+                                        <div class="projects-folders"></div>
+                                    </div>
+                                    <div class="category">
+                                        <div id="web" class="cat-title">
+                                            <img class="minimize-folder show-more" src="/images/folder-plus.svg"
+                                                data-minus="/images/folder-minus.svg"
+                                                data-plus="/images/folder-plus.svg" alt="folder icon" />
+                                            <p>Développement Web</p>
+                                        </div>
+                                        <div class="projects-folders"></div>
+                                    </div>
+                                    <div class="category">
+                                        <div id="uxui" class="cat-title">
+                                            <img class="minimize-folder show-more" src="/images/folder-plus.svg"
+                                                data-minus="/images/folder-minus.svg"
+                                                data-plus="/images/folder-plus.svg" alt="folder icon" />
+                                            <p>UX/UI</p>
+                                        </div>
+                                        <div class="projects-folders"></div>
+                                    </div>
+                                    <div class="category">
+                                        <div id="audiovisuelle" class="cat-title">
+                                            <img class="minimize-folder show-more" src="/images/folder-plus.svg"
+                                                data-minus="/images/folder-minus.svg"
+                                                data-plus="/images/folder-plus.svg" alt="folder icon" />
+                                            <p>Audiovisuelle</p>
+                                        </div>
+                                        <div class="projects-folders"></div>
+                                    </div>
+                                </div>
+                                <div id="win_content">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
