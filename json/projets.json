@@ -51,8 +51,8 @@
             "description": "Un labyrinthe, des pièges, des monstres… et une héroïne prête à en découdre ! Ce jeu d’exploration 2D, entièrement réalisé sur Unity, plonge le joueur dans un univers rempli de dangers où il faut retrouver la sortie tout en combattant. J’y ai développé un système de combat simple mais efficace (knockback, stun, barre de vie), géré les collisions et animations, intégré des effets sonores, ainsi qu’une petite interface utilisateur. C'était mon tout premier projet Unity : une expérience qui a posé les bases pour de futurs projets toujours plus complexes.",
             "links": [
                 {
-                    "link_name": "Jouer",
-                    "link_url": "itch.io"
+                    "link_name": "Coming Soon",
+                    "link_url": "#"
                 }
             ],
             "tools": [
@@ -433,7 +433,7 @@
                 },
                 {
                     "link_name": "Dossier Scenario",
-                    "link_url": "/docs/flame_stalker.pdf"
+                    "link_url": "/docs/flame_stalker.pdf    "
                 }
             ],
             "tools": [
