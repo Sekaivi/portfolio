@@ -2,6 +2,7 @@ const navElements = document.querySelectorAll(".nav_elements");
 const logo = document.querySelector('#logo');
 const profile = document.querySelector("#profile");
 const presentationWin = document.querySelector("#presentation-window");
+const startMenu = document.querySelector('#start_menu') ;
 let catFolders = document.querySelectorAll('.category');
 let activeFolder = null;
 let buttons;
@@ -11,7 +12,7 @@ updateDateTime();
 setInterval(updateDateTime, 1000);
 showWindow(presentationWin);
 
-[logo, profile].forEach(element => {
+[logo, profile,startMenu].forEach(element => {
     element.addEventListener('click', () => {
         showWindow(presentationWin);
     });

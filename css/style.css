@@ -212,10 +212,8 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    aspect-ratio: 16 / 9;
-    width: 100%;
-    max-width: 100vw;
-    max-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     margin: auto;
   }
 
@@ -787,11 +785,40 @@ body {
 
 @media (max-width: 768px) {
 
-    #pc{
-        aspect-ratio: auto;
+    .icon_img{
+        width: 70px;
+        height: 70px;
     }
 
+    .icons_txt{
+        max-width: 70px;
+    }
 
+    #desktop_icons{
+        gap: 16px 8px;
+    }
+
+    .special{
+        font-size: 18px;
+    }
+    #taskbar{
+        height: 60px;
+    }
+
+    #start_menu p {
+        font-size: 32px;
+    }
+
+    .nav_elements img{
+        width: 30px;
+    }
+    #split-screen {
+        display: block;
+    }
+
+    #location{
+        display: none;
+    }
     #background {
         align-items: flex-end;
         justify-content: flex-start;
