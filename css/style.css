@@ -787,6 +787,10 @@ body {
 
 @media (max-width: 768px) {
 
+    #pc{
+        aspect-ratio: auto;
+    }
+
 
     #background {
         align-items: flex-end;
