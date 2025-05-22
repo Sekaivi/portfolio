@@ -39,7 +39,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;cu
+    box-sizing: border-box;
+    cu
 }
 
 ::-webkit-scrollbar {
@@ -201,7 +202,7 @@ body {
     overflow: hidden;
     z-index: -1;
     display: flex;
-    flex-flow: column nowrap;   
+    flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
 }
@@ -225,7 +226,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: auto;
-  }
+}
 
 #logo {
     width: 300px;
@@ -235,7 +236,7 @@ body {
     right: 24px;
 }
 
-#logo:hover{
+#logo:hover {
     cursor: url('pointer.cur'), auto;
 }
 
@@ -342,7 +343,7 @@ body {
     height: 80px;
 }
 
-#moi-img img{
+#moi-img img {
     width: 100px;
     height: auto;
     max-width: none;
@@ -807,23 +808,24 @@ body {
 
 @media (max-width: 768px) {
 
-    .icon_img{
+    .icon_img {
         width: 70px;
         height: 70px;
     }
 
-    .icons_txt{
+    .icons_txt {
         max-width: 70px;
     }
 
-    #desktop_icons{
+    #desktop_icons {
         gap: 16px 8px;
     }
 
-    .special{
+    .special {
         font-size: 18px;
     }
-    #taskbar{
+
+    #taskbar {
         height: 60px;
     }
 
@@ -831,16 +833,18 @@ body {
         font-size: 32px;
     }
 
-    .nav_elements img{
+    .nav_elements img {
         width: 30px;
     }
+
     #split-screen {
         display: block;
     }
 
-    #location{
+    #location {
         display: none;
     }
+
     #background {
         align-items: flex-end;
         justify-content: flex-start;
@@ -895,4 +899,47 @@ body {
         order: 4;
     }
 
+}
+
+/* je test des trucs */
+
+.sparkle {
+    z-index: 100;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: white;
+    box-shadow:
+        0 0 0 0 white,
+        6px 0 0 0 white,
+        -6px 0 0 0 white,
+        0 6px 0 0 white,
+        0 -6px 0 0 white;
+    animation: sparkle-fade 0.8s ease-out forwards;
+}
+
+@keyframes sparkle-fade {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+        background: white;
+        box-shadow:
+            0 0 0 0 white,
+            6px 0 0 0 white,
+            -6px 0 0 0 white,
+            0 6px 0 0 white,
+            0 -6px 0 0 white;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.5);
+        background: #EA5D9C;
+        box-shadow:
+            0 0 0 0 #EA5D9C,
+            6px 0 0 0 #EA5D9C,
+            -6px 0 0 0 #EA5D9C,
+            0 6px 0 0 #EA5D9C,
+            0 -6px 0 0 #EA5D9C;
+    }
 }

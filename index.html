@@ -9,6 +9,19 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <script src="/js/projects.js" defer="defer"></script>
     <script src="/js/react.js" defer="defer"></script>
+    <script>
+        document.addEventListener('click', function (e) {
+            const sparkle = document.createElement('div');
+            sparkle.className = 'sparkle';
+            sparkle.style.left = `${e.clientX - 3}px`;
+            sparkle.style.top = `${e.clientY - 3}px`;
+            document.body.appendChild(sparkle);
+
+            setTimeout(() => {
+                sparkle.remove();
+            }, 800); // Match the animation duration
+        });
+    </script>
     <style type="text/css"></style>
 </head>
 
