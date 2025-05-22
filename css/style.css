@@ -39,7 +39,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;cu
 }
 
 ::-webkit-scrollbar {
@@ -60,11 +60,11 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #a10b4e;
-    cursor: pointer;
+    cursor: url('grab.cur'), auto;
 }
 
 ::-webkit-scrollbar-thumb:active {
-    cursor: grab;
+    cursor: url('grab.cur'), auto;
 }
 
 a {
@@ -88,7 +88,7 @@ p {
 }
 
 .button:hover {
-    cursor: pointer;
+    cursor: url('pointer.cur'), auto;
 }
 
 .button img {
@@ -187,6 +187,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: url('select.cur'), auto;
 }
 
 #background {
@@ -234,6 +235,10 @@ body {
     right: 24px;
 }
 
+#logo:hover{
+    cursor: url('pointer.cur'), auto;
+}
+
 /* taskbar stuff */
 
 #taskbar {
@@ -248,7 +253,7 @@ body {
 }
 
 #start_menu {
-    cursor: pointer;
+    cursor: url('pointer.cur'), auto;
     display: flex;
     padding: 6px 16px 6px 24px;
     justify-content: center;
@@ -313,7 +318,7 @@ body {
 /* desktop stuff */
 
 .icon {
-    cursor: pointer;
+    cursor: url('pointer.cur'), auto;
     display: flex;
     gap: 4px;
     flex-direction: column;
@@ -479,7 +484,7 @@ body {
 }
 
 .nav_elements img {
-    cursor: pointer;
+    cursor: url('pointer.cur'), auto;
 }
 
 .nav_elements img:hover {
@@ -534,7 +539,7 @@ body {
     align-items: center;
     gap: 12px;
     padding: 4px 0px;
-    cursor: pointer;
+    cursor: url('pointer.cur'), auto;
     border: 1px solid transparent;
     border-radius: 2px;
 }
@@ -594,7 +599,7 @@ body {
 }
 
 .project-teaser {
-    cursor: pointer;
+    cursor: url('pointer.cur'), auto;
     padding: 6px;
     display: flex;
     flex-direction: column;
