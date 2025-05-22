@@ -196,15 +196,24 @@ body {
     height: 100vh;
     max-width: 100%;
     max-height: 100%;
+    padding-top: 32px;
     overflow: hidden;
     z-index: -1;
     display: flex;
-    justify-content: flex-end;
+    flex-flow: column nowrap;   
+    justify-content: flex-start;
+    align-items: center;
 }
 
-#background img {
+#background .clouds {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+#background .stars {
     max-height: 100%;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 
@@ -221,7 +230,7 @@ body {
     width: 300px;
     max-width: 100%;
     position: absolute;
-    top: 0;
+    top: 16px;
     right: 24px;
 }
 
@@ -328,6 +337,13 @@ body {
     height: 80px;
 }
 
+#moi-img img{
+    width: 100px;
+    height: auto;
+    max-width: none;
+    max-height: none;
+}
+
 .icon_img img {
     max-width: 100%;
     max-height: 100%;
@@ -369,10 +385,11 @@ body {
 #me_large {
     position: absolute;
     bottom: 0;
-    right: 0;
-    width: 400px;
+    right: 24px;
+    max-width: 400px;
+    max-height: 70vh;
     z-index: -1;
-    margin-bottom: 20px;
+    filter: drop-shadow(16px 16px 0px black);
 }
 
 .window {
@@ -826,11 +843,8 @@ body {
         max-height: none;
     }
 
-    #background img {
-        transform: rotate(90deg) scale(-1);
-        height: 100vh;
-        max-width: none;
-        max-height: none;
+    #background .clouds {
+        display: none;
     }
 
     #logo {
