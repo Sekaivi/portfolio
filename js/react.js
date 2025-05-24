@@ -1,18 +1,23 @@
 const navElements = document.querySelectorAll(".nav_elements");
+const catIcon = document.querySelector('#cat-icon');
 const logo = document.querySelector('#logo');
 const profile = document.querySelector("#profile");
 const presentationWin = document.querySelector("#presentation-window");
-const startMenu = document.querySelector('#start_menu') ;
+const apiWin = document.querySelector('#random-api') ;
+const apiContent = apiWin.querySelector('.win_content') ;
+const startMenu = document.querySelector('#start_menu');
 let catFolders = document.querySelectorAll('.category');
 let activeFolder = null;
 let buttons;
 let lastHoveredButton;
+// to move around windows :)
+let dragZoneEls = document.querySelectorAll('.drag-zone');
 
 updateDateTime();
 setInterval(updateDateTime, 1000);
 showWindow(presentationWin);
 
-[logo, profile,startMenu].forEach(element => {
+[logo, profile, startMenu].forEach(element => {
     element.addEventListener('click', () => {
         showWindow(presentationWin);
     });
@@ -26,6 +31,43 @@ navElements.forEach(element => {
         })
     });
 });
+
+
+if (dragZoneEls) {
+    dragZoneEls.forEach(el => {
+        el.addEventListener('mousedown', (e) => {
+            const win = el.closest('.window');
+            if (!win) return;
+            // Get initial mouse and window positions
+            const offsetX = e.clientX - win.offsetLeft;
+            const offsetY = e.clientY - win.offsetTop;
+
+            // Function to handle moving
+            const onMouseMove = (e) => {
+                win.style.left = `${e.clientX - offsetX}px`;
+                win.style.top = `${e.clientY - offsetY}px`;
+            };
+
+            // Function to stop moving
+            const onMouseUp = () => {
+                document.removeEventListener('mousemove', onMouseMove);
+                document.removeEventListener('mouseup', onMouseUp);
+            };
+
+            // Attach listeners
+            document.addEventListener('mousemove', onMouseMove);
+            document.addEventListener('mouseup', onMouseUp);
+        });
+    });
+}
+
+if (catIcon) {
+    catIcon.addEventListener('click', () => {
+        showWindow(apiWin);
+        useApi('cat');
+    });
+}
+
 
 function adjustButtons() {
     buttons = document.querySelectorAll('.button');
@@ -58,7 +100,8 @@ function handleHover() {
 }
 
 function hideWindow(window) {
-    winContent.innerHTML = '' ;
+    let thisWinContent = window.querySelector('.win_content') ;
+    thisWinContent.innerHTML = '';
     window.classList.remove('show');
     void window.offsetWidth;
     window.classList.add('hide');
@@ -66,6 +109,11 @@ function hideWindow(window) {
     if (currentSelectedFolder) {
         currentSelectedFolder.classList.remove('selected');
     }
+    setTimeout(() => {
+        window.style.top = '50%';
+        window.style.left = '50%';
+        window.style.transform = 'translate(-50%, -50%)';
+    }, 300);
 }
 
 function showWindow(window) {
@@ -144,4 +192,38 @@ function checkFolderState(folderIcon, folder) {
         folderIcon.classList.add('show-more');
         folderIcon.src = folderIcon.dataset.plus;
     }
+}
+
+function useApi(apiCase) {
+    apiContent.innerHTML = '' ;
+    switch (apiCase) {
+        case 'cat':
+            catApi()
+            break;
+        default:
+            hideWindow(apiWin);
+            console.log("error: unkown API");
+    }
+}
+
+function catApi() {
+    fetch("https://cataas.com/cat?json=true")
+        .then(response => {
+            if (!response.ok) {
+                hideWindow(apiWin);
+                throw new Error('Erreur ' + response.status + ': ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            let imgEL = document.createElement('img') ;
+            imgEL.src = data.url ;
+            imgEL.alt = 'random cat' ;
+            apiContent.appendChild(imgEL) ;
+            imgEL.classList.add('cat-img') ;
+        })
+        .catch(error => {
+            hideWindow(apiWin);
+            console.log(error);
+        });
 }

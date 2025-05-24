@@ -3,7 +3,7 @@ const webIcon = document.querySelector("#web-icon");
 const uxIcon = document.querySelector("#ux-icon");
 const audiovizIcon = document.querySelector("#audioviz-icon");
 const projectsWin = document.querySelector("#projects-window");
-const winContent = document.querySelector("#win_content");
+const winContent = projectsWin.querySelector(".win_content");
 
 
 [gameIcon, webIcon, uxIcon, audiovizIcon].forEach(icon => {
