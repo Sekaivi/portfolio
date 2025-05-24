@@ -101,7 +101,9 @@ function handleHover() {
 
 function hideWindow(window) {
     let thisWinContent = window.querySelector('.win_content') ;
-    thisWinContent.innerHTML = '';
+    if(thisWinContent){
+        thisWinContent.innerHTML = '';
+    }
     window.classList.remove('show');
     void window.offsetWidth;
     window.classList.add('hide');
