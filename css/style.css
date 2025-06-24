@@ -844,6 +844,7 @@ body {
 #backBtn_b1 {
     border-radius: 100%;
     border: 4px solid black;
+    box-shadow: 2px 2px 0px black;
 }
 
 #backBtn_b2 {
@@ -869,6 +870,11 @@ body {
 #backBtn_b1:hover {
     cursor: url('pointer.cur'), auto;
     filter: brightness(0.9);
+}
+
+#backBtn_b1:active{
+    box-shadow: none;
+    transform: translate(2px,2px);
 }
 
 
