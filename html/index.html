@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mayssa Rouibah</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <script src="/js/projects.js" defer="defer"></script>
+    <script src="/js/react.js" defer="defer"></script>
+    <script>
+        document.addEventListener('click', function (e) {
+            const sparkle = document.createElement('div');
+            sparkle.className = 'sparkle';
+            sparkle.style.left = `${e.clientX - 3}px`;
+            sparkle.style.top = `${e.clientY - 3}px`;
+            document.body.appendChild(sparkle);
+
+            setTimeout(() => {
+                sparkle.remove();
+            }, 800); // Match the animation duration
+        });
+    </script>
+    <style type="text/css"></style>
+</head>
+
+<body>
+    <main id="pc">
+        <div id="background">
+            <img class="stars" src="/images/sparkles_background.svg" alt="stars" />
+            <img class="clouds" src="/images/clouds_background.png" alt="clouds" />
+        </div>
+
+        <div id="desktop">
+
+            <img id="logo" src="/images/logo.png" alt="Logo Mayssa Rouibah" />
+
+            <div id="desktop_icons">
+
+                <div id="profile" title="Pour tout savoir sur moi :)" class="icon">
+                    <div id="moi-img" class="icon_img">
+                        <img src="/images/desk/moi.png" alt="Me the Icon" />
+                    </div>
+                    <p class="icons_txt">Mayssa <span class="emoticons">D</span></p>
+                </div>
+
+                <a title="mon CV :)" target="_blank" href="/docs/cv.pdf">
+                    <div class="icon">
+                        <div class="icon_img">
+                            <img src="/images/desk/tools.png" alt="Outils" />
+                        </div>
+                        <p class="icons_txt">Mon CV</p>
+                    </div>
+                </a>
+
+                <div data-id="games" id="game-icon" title="Les Jeux sur lesquels j'ai travaillé!" class="icon">
+                    <div class="icon_img">
+                        <img src="/images/desk/games.png" alt="Jeux" />
+                    </div>
+                    <p class="icons_txt">Jeux</p>
+                </div>
+                <div data-id="web" id="web-icon" title="Mes réalisations web" class="icon">
+                    <div class="icon_img">
+                        <img src="./images/desk/web.png" alt="Internet Explorer" />
+                    </div>
+                    <p class="icons_txt">Web</p>
+                </div>
+                <div data-id="uxui" id="ux-icon" title="Mes expériences en gestion de projet" class="icon">
+                    <div class="icon_img">
+                        <img src="/images/desk/ux.png" alt="Malette" />
+                    </div>
+                    <p class="icons_txt">Gestion de Projet</p>
+                </div>
+                <div data-id="audiovisuelle" id="audioviz-icon" title="Mes productions audiovisuelles et autres"
+                    class="icon">
+                    <div class="icon_img">
+                        <img src="/images/desk/audiovisuelle.png" alt="Caméra" />
+                    </div>
+                    <p class="icons_txt">Audiovisuelle</p>
+                </div>
+                <a title="Mon Github" target="_blank" href="https://github.com/Sekaivi">
+                    <div class="icon">
+                        <div class="icon_img">
+                            <img src="/images/desk/github.png" alt="GitHub" />
+                        </div>
+                        <p class="icons_txt">Github</p>
+                    </div>
+                </a>
+                <a title="Mon adresse e-mail / courriel" target="_blank" href="mailto:rouibahmayssa@gmail.com">
+                    <div class="icon">
+                        <div class="icon_img">
+                            <img src="/images/desk/email.png" alt="E-mail" />
+                        </div>
+                        <p class="icons_txt">E-mail</p>
+                    </div>
+                </a>
+                <a title="Mon linkedin" target="_blank" href="https://linkedin.com/in/mayssa-rouibah">
+                    <div class="icon">
+                        <div class="icon_img">
+                            <img src="/images/desk/linkedin.png" alt="linkedin" />
+                        </div>
+                        <p class="icons_txt">Linkedin</p>
+                    </div>
+                </a>
+                <div style="display: none;" data-id="cat-api" id="cat-icon" title="Chat surprise" class="icon">
+                    <div class="icon_img">
+                        <img src="/images/desk/cat.png" alt="chat" />
+                    </div>
+                    <p class="icons_txt">Miaou</p>
+                </div>
+
+            </div>
+
+            <img id="me_large" src="/images/me_large.png" alt="Mayssa en Pixel art :D" />
+
+        </div>
+
+        <div id="taskbar">
+            <div id="start_menu">
+                <img src="/images/desk/windows.png" alt="Windows Logo" />
+                <p>
+                    <span class="text">Start</span>
+                    <span class="shadow">Start</span>
+                </p>
+            </div>
+            <div id="date_time">
+                <p class="special" id="time"></p>
+                <p class="special" id="date"></p>
+            </div>
+        </div>
+
+        <div id="presentation-window" class="window show">
+            <div class="shine1">
+                <div class="rose">
+                    <div class="nav_elements">
+                        <img src="/images/minimize.svg" alt="minimize" />
+                        <img src="/images/restore.svg" alt="minimize" />
+                        <img src="/images/close.svg" alt="minimize" />
+                    </div>
+                    <div class="shine2">
+                        <div class="noir">
+                            <div id="presentation_text">
+                                <p>Bien le bonjour à vous, cher visiteur, chère visiteuse <span
+                                        class="emoticons">D</span></p>
+                                <p>Bienvenue sur <span style="font-weight: bold;">MES ARCHIVES WEB</span>, mon petit
+                                    espace personnel me permettant de garder
+                                    une trace de mes projets personnels et
+                                    universitaires ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧</p>
+                                <p>Je m’appelle Mayssa, <span style="font-weight: bold;">électron libre</span>
+                                    passionnée de tech et férue de lignes de codes. Débordante d'enthousiasme et emplie
+                                    de passion,
+                                    je cherche aujourd'hui à enrichier ma compréhension de l'information et mes
+                                    capacités en terme
+                                    de développement en touchant à un maximum de choses ~ !</p>
+                                <p>Je vous remercie d’avoir jeté un coup d’oeil à mon profil ♡(>ᴗ•)</p>
+                                <p style="color: #595959;">Libre à vous de naviguez tels que vous le souhaitez (˶ᵔ ᵕ ᵔ˶)
+                                    Certaine fenetres peuvent-etre déplacées donc n'hésitez pas à vous amuser :)
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects-window" class="window">
+            <div class="shine1">
+                <div class="rose">
+                    <div class="nav_elements">
+                        <img src="/images/minimize.svg" alt="minimize" />
+                        <img src="/images/restore.svg" alt="minimize" />
+                        <img src="/images/close.svg" alt="minimize" />
+                    </div>
+                    <div class="shine2">
+                        <div class="noir">
+                            <div id="split-screen">
+                                <div id="location">
+                                    <div class="category">
+                                        <div id="games" class="cat-title">
+                                            <img class="minimize-folder show-more" src="/images/folder-plus.svg"
+                                                data-minus="/images/folder-minus.svg"
+                                                data-plus="/images/folder-plus.svg" alt="folder icon" />
+                                            <p>Jeux</p>
+                                        </div>
+                                        <div class="projects-folders"></div>
+                                    </div>
+                                    <div class="category">
+                                        <div id="web" class="cat-title">
+                                            <img class="minimize-folder show-more" src="/images/folder-plus.svg"
+                                                data-minus="/images/folder-minus.svg"
+                                                data-plus="/images/folder-plus.svg" alt="folder icon" />
+                                            <p>Développement Web</p>
+                                        </div>
+                                        <div class="projects-folders"></div>
+                                    </div>
+                                    <div class="category">
+                                        <div id="uxui" class="cat-title">
+                                            <img class="minimize-folder show-more" src="/images/folder-plus.svg"
+                                                data-minus="/images/folder-minus.svg"
+                                                data-plus="/images/folder-plus.svg" alt="folder icon" />
+                                            <p>Gestion de Projets</p>
+                                        </div>
+                                        <div class="projects-folders"></div>
+                                    </div>
+                                    <div class="category">
+                                        <div id="audiovisuelle" class="cat-title">
+                                            <img class="minimize-folder show-more" src="/images/folder-plus.svg"
+                                                data-minus="/images/folder-minus.svg"
+                                                data-plus="/images/folder-plus.svg" alt="folder icon" />
+                                            <p>Audiovisuelle</p>
+                                        </div>
+                                        <div class="projects-folders"></div>
+                                    </div>
+                                </div>
+                                <div class="win_content">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="random-api" class="window">
+            <div class="drag-zone"></div>
+            <div class="shine1">
+                <div class="rose">
+                    <div class="nav_elements">
+                        <img src="/images/minimize.svg" alt="minimize" />
+                        <img src="/images/restore.svg" alt="minimize" />
+                        <img src="/images/close.svg" alt="minimize" />
+                    </div>
+                    <div class="shine2">
+                        <div class="noir">
+                            <div class="win_content">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

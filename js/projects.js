@@ -91,6 +91,26 @@ async function displayProjects() {
 async function displayProjectDetails(category) {
   let projectData = await fetchProject(category, activeFolder); // mettre le truc en param
   winContent.innerHTML = '';
+  // setting up a back button 
+  let backBtnContainer = document.createElement('div') ;
+  backBtnContainer.id = 'backBtnContainer'
+  let backBtn_b1 = document.createElement('button') ;
+  backBtn_b1.id = 'backBtn_b1' ;
+  backBtn_b1.title = 'Retour aux projets' ;
+  let backBtn_b2 = document.createElement('div') ;
+  backBtn_b2.id = 'backBtn_b2' ;
+  let backBtn_w = document.createElement('div') ;
+  backBtn_w.id = 'backBtn_w' ;
+  backBtnContainer.appendChild(backBtn_b1) ; 
+  backBtn_b1.appendChild(backBtn_w) ;
+  backBtn_w.appendChild(backBtn_b2) ;
+  backBtn_b2.innerText = 'X' ;
+  winContent.appendChild(backBtnContainer) ;
+  // on click, on remontre les projets
+  backBtn_b1.addEventListener('click' , () => {
+    activeFolder = category ;
+    displayProjects() ;
+  })
   let projectContainer = document.createElement('div');
   projectContainer.classList.add('project-details');
   winContent.appendChild(projectContainer)

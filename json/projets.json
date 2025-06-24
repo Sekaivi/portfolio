@@ -28,11 +28,11 @@
                     "tool_path": "/images/html.png"
                 },
                 {
-                    "tool_name": "css",
+                    "tool_name": "CSS",
                     "tool_path": "/images/css.png"
                 },
                 {
-                    "tool_name": "js",
+                    "tool_name": "Javascript",
                     "tool_path": "/images/js.png"
                 }
             ],
@@ -44,7 +44,7 @@
             "cover": "/images/dungeon_escape.png",
             "date": "2025-04-01",
             "tags": [
-                "unity",
+                "Unity",
                 "C#",
                 "jeu vidéo"
             ],
@@ -98,7 +98,7 @@
                     "tool_path": "/images/mysql.png"
                 },
                 {
-                    "tool_name": "js",
+                    "tool_name": "Javascript",
                     "tool_path": "/images/js.png"
                 },
                 {
@@ -139,7 +139,7 @@
             ],
             "tools": [
                 {
-                    "tool_name": "php",
+                    "tool_name": "PHP",
                     "tool_path": "/images/php.png"
                 },
                 {
@@ -147,7 +147,7 @@
                     "tool_path": "/images/mysql.png"
                 },
                 {
-                    "tool_name": "js",
+                    "tool_name": "Javascript",
                     "tool_path": "/images/js.png"
                 },
                 {
@@ -171,11 +171,11 @@
             "links": [],
             "tools": [
                 {
-                    "tool_name": "laravel",
+                    "tool_name": "Laravel",
                     "tool_path": "/images/laravel.png"
                 },
                 {
-                    "tool_name": "php",
+                    "tool_name": "PHP",
                     "tool_path": "/images/php.png"
                 },
                 {
@@ -211,11 +211,11 @@
             ],
             "tools": [
                 {
-                    "tool_name": "html",
+                    "tool_name": "HTML",
                     "tool_path": "/images/html.png"
                 },
                 {
-                    "tool_name": "js",
+                    "tool_name": "Javascript",
                     "tool_path": "/images/js.png"
                 },
                 {
@@ -252,15 +252,15 @@
             ],
             "tools": [
                 {
-                    "tool_name": "php",
+                    "tool_name": "PHP",
                     "tool_path": "/images/php.png"
                 },
                 {
-                    "tool_name": "html",
+                    "tool_name": "HTML",
                     "tool_path": "/images/html.png"
                 },
                 {
-                    "tool_name": "js",
+                    "tool_name": "Javascript",
                     "tool_path": "/images/js.png"
                 },
                 {
@@ -297,11 +297,11 @@
                     "tool_path": "/images/d3.png"
                 },
                 {
-                    "tool_name": "js",
+                    "tool_name": "Javascript",
                     "tool_path": "/images/js.png"
                 },
                 {
-                    "tool_name": "html",
+                    "tool_name": "HTML",
                     "tool_path": "/images/html.png"
                 },
                 
@@ -345,11 +345,11 @@
                     "tool_path": "/images/figma.png"
                 },
                 {
-                    "tool_name": "webflow",
+                    "tool_name": "Webflow",
                     "tool_path": "/images/webflow.png"
                 },
                 {
-                    "tool_name": "premiere pro",
+                    "tool_name": "Premiere Pro",
                     "tool_path": "/images/premiere.png"
                 }
             ],
