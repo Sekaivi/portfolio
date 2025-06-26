@@ -469,6 +469,44 @@
             "video": "https://youtu.be/jWfOZG77WXU"
         }
 
+    ],
+
+    "exp_pro" : [
+        {
+            "project_name": "Université du Koweït",
+            "cover": "/images/cba_stage.png",
+            "date": "2025-04-07",
+            "tags": [
+                "STAGE",
+                "développement fullstack"
+            ],
+            "description": "Du 7 avril au 10 juillet 2025, j’ai accompli un stage en tant que développeuse web au sein de l’Université du Koweit. Mes missions ont principalement consisté à développer des solutions web pour améliorer les processus du bureau d’échanges étudiants ainsi que leur image. J’ai notamment conçu une proposition de back-office pour faciliter la gestion du programme d’échange, ainsi qu’un site vitrine pour en valoriser l’image et faciliter l’accès aux informations. J’ai également travaillé sur la modélisation de bases de données, en réalisant les diagrammes correspondants à l’aide de MySQL Workbench, un nouvel outil que j’ai appris à maitriser au cours de ces 3 mois. Ces tâches m’ont amenée à identifier des besoins parfois implicites, à communiquer efficacement avec des interlocuteurs qui ne possède pas le même vocabulaire technique que le mien, et à évoluer dans un environnement de travail non francophone. Ce stage m’a permis de renforcer mes compétences en développement back-end tout en complimentant celles-ci par mes autres compétences acquises au cours de ma formation en BUT MMI, afin de proposer une plateforme fonctionnelle, à l’interface dynamique et surtout, intuitive en prenant avant tout en considération le type d’utilisateur qui sera amené à prendre en main l’application développée.",
+            "links": [
+                {
+                    "link_name": "Rapport de Stage",
+                    "link_url": "/docs/Rouibah_Mayssa_rapport.pdf"
+                }
+            ],
+           "tools": [
+                {
+                    "tool_name": "PHP",
+                    "tool_path": "/images/php.png"
+                },
+                {
+                    "tool_name": "MySQL",
+                    "tool_path": "/images/mysql.png"
+                },
+                {
+                    "tool_name": "Javascript",
+                    "tool_path": "/images/js.png"
+                },
+                {
+                    "tool_name": "CSS",
+                    "tool_path": "/images/css.png"
+                }
+            ],
+            "video": "https://youtu.be/Tjtvh5hFd7o"
+        }
     ]
 
 }

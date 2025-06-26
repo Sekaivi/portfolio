@@ -1,12 +1,14 @@
+// icon that make projects show up on click
 const gameIcon = document.querySelector("#game-icon");
 const webIcon = document.querySelector("#web-icon");
 const uxIcon = document.querySelector("#ux-icon");
 const audiovizIcon = document.querySelector("#audioviz-icon");
+const expProIcon = document.querySelector('#exp_pro-icon');
 const projectsWin = document.querySelector("#projects-window");
 const winContent = projectsWin.querySelector(".win_content");
 
 
-[gameIcon, webIcon, uxIcon, audiovizIcon].forEach(icon => {
+[gameIcon, webIcon, uxIcon, audiovizIcon, expProIcon].forEach(icon => {
   icon.addEventListener("click", () => {
     showWindow(projectsWin);
     activeFolder = icon.dataset.id
