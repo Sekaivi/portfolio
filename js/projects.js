@@ -107,7 +107,6 @@ async function displayProjectDetails(category) {
   backBtn_b1.appendChild(backBtn_w) ;
   backBtn_w.appendChild(backBtn_b2) ;
   backBtn_b2.innerText = 'X' ;
-  winContent.appendChild(backBtnContainer) ;
   // on click, on remontre les projets
   backBtn_b1.addEventListener('click' , () => {
     activeFolder = category ;
@@ -116,6 +115,8 @@ async function displayProjectDetails(category) {
   let projectContainer = document.createElement('div');
   projectContainer.classList.add('project-details');
   winContent.appendChild(projectContainer)
+  // adding back button to projectContainer
+  projectContainer.appendChild(backBtnContainer) ;
   // making the head
   let projectHead = document.createElement('div');
   projectContainer.appendChild(projectHead);
