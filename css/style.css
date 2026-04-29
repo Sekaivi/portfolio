@@ -491,6 +491,10 @@ body {
     filter: invert(0.1) saturate(1);
 }
 
+#presentation-window{
+    max-width: 800px;
+}
+
 #presentation_text {
     display: flex;
     flex-direction: column;
